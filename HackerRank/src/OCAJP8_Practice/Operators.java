@@ -54,6 +54,15 @@ public class Operators {
 		
 		System.out.println(true^false|true);
 		
+		int ace = 7*3+6 /2 -5;
+		int bay = 21- 8 + ace%3 *11;
+		
+		System.out.println(ace + " " + bay);
+		
+		if(ace<bay) {
+			System.out.println("Run");
+		}
+		
 		
 
 	}
